@@ -20,10 +20,10 @@ from fh.views import prodi1
 from fisip.views import prodi2
 from fk.views import prodi3
 from fkip.views import prodi4
-from fp.views import prodi5
+from faperta.views import prodi5
 from ft.views import prodi6
 from pascasarjana.views import prodi7
-from profil.views import profil
+from profil.views import profil0
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -32,8 +32,8 @@ urlpatterns = [
     path('fisip', prodi2),
     path('fk', prodi3),
     path('fkip', prodi4),
-    path('fp', prodi5),
+    path('faperta', prodi5),
     path('ft', prodi6),
     path('pascasarjana', prodi7),
-    path('profil', profil),
+    path('profil', profil0),
 ]

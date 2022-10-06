@@ -1,34 +1,3 @@
 body {
-    margin:0; 
-    padding:0;
-    background-color: antiquewhite;
-}
-.menu {
-   margin:auto;
-   text-align: center;
-   width: 100%;
-   font-family: 'Times New Roman', Times, serif;
-} 
-.menu ul {
-   background:orange;
-   padding: 0 20px;
-   list-style: none;
-   position: relative;
-   display: inline-table;
-   width: 100%;
-}
-.menu ul li{
-   float:right;
-}
-.menu ul li:hover{
-   background:#FF7F50;
-}
-.menu ul li:hover a{
-    color:#000;
-}
-.menu ul li a{
-    display: block;
-    padding: 25px;
-    color: #fff;
-    text-decoration: none;
+   background-color: rgb(238, 176, 101);
 }
