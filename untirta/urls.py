@@ -20,7 +20,7 @@ from fh.views import prodi1
 from fisip.views import prodi2
 from fk.views import prodi3
 from fkip.views import prodi4
-from faperta.views import prodi5
+from faperta.views import prodi5, tambah_dosen, tambah_mahasiswa, tambah_staf
 from ft.views import prodi6
 from pascasarjana.views import prodi7
 from profil.views import profil0
@@ -36,4 +36,7 @@ urlpatterns = [
     path('ft', prodi6),
     path('pascasarjana', prodi7),
     path('profil', profil0),
+    path('tambah-dosen/', tambah_dosen),
+    path('tambah-mahasiswa/', tambah_mahasiswa),
+    path('tambah-staf/', tambah_staf),
 ]
